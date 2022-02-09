@@ -1,4 +1,4 @@
-export function cumSum(arr){
+function cumSum(arr){
     const creds = arr.reduce((acc, val) => {
         let { sum, res } = acc;
         sum += val;
@@ -10,3 +10,5 @@ export function cumSum(arr){
      });
      return creds.res;
 }
+
+exports.cumSum = cumSum
