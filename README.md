@@ -1,0 +1,1 @@
+this is package for finding cumulative sum of an array. Just call cumSum() and pass your array to it
